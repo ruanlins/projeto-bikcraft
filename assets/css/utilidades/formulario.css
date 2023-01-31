@@ -22,6 +22,16 @@
     box-sizing: border-box;
 }
 
+.form .checkbox {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.form .checkbox label {
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
 .form input[type="text"]:focus,
 .form input[type="email"]:focus,
 .form textarea:focus {
