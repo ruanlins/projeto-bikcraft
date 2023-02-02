@@ -66,8 +66,7 @@
 }
 
 .orcamento-produto input:checked+label {
-    background: var(--cor-0) url("../../img/dec/bottom-left.svg") no-repeat bottom 20px left 20px;
-    ;
+    background: var(--cor-0);
     color: var(--cor-11);
 }
 
